@@ -18,7 +18,7 @@ public class Student extends Person
      */
     public Student(String fullName, String studentID)
     {
-        name = fullName;
+        super(fullName);
         id = studentID;
         credits = 0;
     }

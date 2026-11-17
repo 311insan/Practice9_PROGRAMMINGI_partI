@@ -10,9 +10,9 @@ public class Instructor extends Person
     /**
      * Constructor for objects of class Instructor
      */
-    public Instructor()
+    public Instructor(String name)
     {
-         
+         super(name);
     }
     
 }

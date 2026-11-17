@@ -13,9 +13,9 @@ public class Person
     /**
      * Constructor for objects of class Person
      */
-    public Person()
+    public Person(String name)
     {
-        
+        this.name = name;
     }
 
     public String getName()
